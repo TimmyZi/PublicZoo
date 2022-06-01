@@ -1,4 +1,4 @@
-public class Creature {
+private class abstract Creature {
 
     // Этот класс является родительским
 
@@ -75,4 +75,7 @@ public class Creature {
                 "\nСредняя продолжительность жизни: " + lifespan + ";" + "\nДышит: " + breathe + ";" +
                 "\nСкорость: " + speed + ";";
     }
+
+    public abstract String getVoice();
+
 }
